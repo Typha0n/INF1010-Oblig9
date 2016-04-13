@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.io.File;
 
 public class Sort{
-  public static void main(String[] args) {
+  public static void main(String[] args) throws Exception {
     int antTraader = Integer.parseInt(args[0]);
     File innFil = new File(args[1]);
     String navnUtFil = args[2];
@@ -27,7 +27,7 @@ public class Sort{
   }
 
   public static String[] lesInnFil(Scanner in){
-    String[] navnTabell = Integer.parseInt(in.nextLine());
+    String[] navnTabell = new String[Integer.parseInt(in.nextLine())];
     int teller = 0;
 
     while(in.hasNextLine()){

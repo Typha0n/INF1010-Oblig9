@@ -13,6 +13,6 @@ public class Sorterer extends Thread{
   }
 
   public String[] flette(String[] tabellEn, String[] tabellTo){
-
+    return null;
   }
 }
