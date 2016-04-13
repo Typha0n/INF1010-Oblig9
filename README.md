@@ -1,9 +1,10 @@
 # INF1010-Oblig9
 Trenger dette
   4 klasser
-   SortMain
+  SortMain{
 	- oppretter antråder *lessinn()*skriverut()
-	
+	}
+
   Traad
    * sortering (fletting inngår her)
 	 Monitor - tar inn en array - sender to ut
